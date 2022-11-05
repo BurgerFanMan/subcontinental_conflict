@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<factions>
+	<faction name="Greenbelts" />
+	<faction name="Greycollars" />
+	<faction file="pakistan.xml" />
+</factions>

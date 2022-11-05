@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_shotgun.weapon" key="benelli_m3.weapon" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1.0" player_death_drop_owner_lock_time="45.0">
+    <tag name="cqb" />
+    <specification 
+    retrigger_time="0.333" 
+    accuracy_factor="0.8" 
+    sustained_fire_grow_step="2.0" 
+    sustained_fire_diminish_rate="0.9" 
+    magazine_size="7" 
+    can_shoot_standing="1" 
+    suppressed="0" 
+    name="Benelli M3" 
+    class="4" 
+    reload_one_at_a_time="1" 
+    projectile_speed="90.0" 
+    projectiles_per_shot="5" 
+    burst_shots="1" />
+	
+	<next_in_chain key="benelli_m3_pump.weapon" share_ammo="1"/>
+	
+    <animation key="recoil" ref="27" />
+    <animation key="reload" ref="29" />
+	
+	<animation state_key="next_in_chain_in" animation_key="switch fire mode"/>
+	
+    <sound key="fire" fileref="benelli_m4_shot.wav"  volume="0.5" />
+    <sound key="cycle" fileref="mossberg500_cycle.wav" />
+    <sound key="reload_one" fileref="mossberg500_reload.wav" />
+    <sound class="impact" fileref="rifle_drop.wav" />
+    <model filename="benelli_m4.xml" />
+
+    <hud_icon filename="hud_benelli_m3.png" />
+    <commonness value="0.1"/>
+    <inventory encumbrance="10.0" price="2.0" />
+
+    <weak_hand_hold offset="0.2" />
+    <projectile file="bullet.projectile">
+        <result class="hit" kill_probability="0.65" kill_decay_start_time="0.2" kill_decay_end_time="0.38" />
+    </projectile>
+    
+    <modifier class="speed" value="-0.00" />    
+</weapon>
+

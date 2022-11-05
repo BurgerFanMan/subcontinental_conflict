@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package  
+  name="Subcontinetal Conflict"
+  description="As China weakens under the strain of its collpasing economy and the USA sets its eyes elsewhere, the distinct powers of India and Pakistan see opportunities open up...."
+  show_in_campaign_menu="1"
+  show_in_quick_match_mods="0"
+  campaign_entry_script="start_campaign.as">
+	
+
+	<campaign_options 
+		faction="1" 
+		presets="1"
+		friendly_capacity="1"
+		enemy_capacity="1"
+		friendly_accuracy="1"
+		enemy_accuracy="1"
+		xp_multiplier="1"
+		rp_multiplier="1" />
+		<choice id="difficulty" text="Environment">
+			<entry text="Fov enabled" help="Help:fovon" />
+			<entry text="Fov disabled" help="Help:fovoff" />
+		</choice>
+	
+
+</package>
