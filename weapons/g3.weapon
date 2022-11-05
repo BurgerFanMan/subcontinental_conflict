@@ -31,7 +31,7 @@
     <sound key="magazine_in" fileref="rifle_clip_in.wav" />
     <sound key="cycle" fileref="rifle_chamber.wav" />
     <sound class="impact" fileref="rifle_drop.wav" />
-    <model filename="g3.xml" />
+    <model filename="g3_1x.xml" />
 
     <hud_icon filename="hud_g3_1x.png" />
     <commonness value="0.15"/>     

@@ -15,7 +15,7 @@
    height="2048"
    id="svg2"
    version="1.1"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:version="0.92.0 r15299"
    sodipodi:docname="objects.svg"
    inkscape:export-filename="D:\DEVELOPMENT\Running with rifles TEST\media\packages\vanilla\maps\map1\zones.png"
    inkscape:export-xdpi="90"
@@ -28,16 +28,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.32"
-     inkscape:cx="1530.9143"
-     inkscape:cy="966.88322"
+     inkscape:zoom="1.28"
+     inkscape:cx="866.2601"
+     inkscape:cy="743.27234"
      inkscape:document-units="px"
-     inkscape:current-layer="layer29"
+     inkscape:current-layer="layer1"
      showgrid="true"
-     inkscape:window-width="3840"
-     inkscape:window-height="2066"
-     inkscape:window-x="-10"
-     inkscape:window-y="-10"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:snap-bbox="false"
      inkscape:object-nodes="true"
@@ -6758,6 +6758,19 @@
          mode="multiply"
          in2="BackgroundImage"
          id="feBlend11086-24-2-8-6-7" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter7235-8"
+       x="-0.07273744"
+       width="1.1454749"
+       y="-0.071277358"
+       height="1.1425546">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="7.8829864"
+         id="feGaussianBlur7237-3" />
     </filter>
   </defs>
   <metadata
@@ -14615,6 +14628,12 @@ key = mortar.vehicle;</desc>
        d="m 865.4987,925.82154 -0.70711,168.29146 27.57717,23.3345 63.63961,17.6776 53.03303,0.7072 49.4975,-14.1422 41.0121,-35.3553 c 0,0 22.6275,-38.1838 24.7488,-41.7193 2.1213,-3.5356 -2.1213,-60.1041 -2.1213,-60.1041 l -32.5269,-45.96194 c 0,0 -32.527,-33.23402 -34.6483,-36.06245 -2.1213,-2.82842 -65.76091,-29.69848 -65.76091,-29.69848 0,0 -43.84062,-4.24264 -46.66905,-1.41421 -2.82843,2.82842 -44.54773,31.8198 -44.54773,31.8198 z"
        id="path7165"
        inkscape:connector-curvature="0" />
+    <path
+       style="display:inline;enable-background:new;fill:#2b2b2b;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter7235-8)"
+       d="m 651.6048,1284.7554 42.3822,63.3303 25.3675,91.8355 71.3735,35.3553 48.6136,-32.4385 46.183,-20.5492 41.0121,-13.4803 c 0,0 22.6275,-38.1839 24.7488,-41.7194 2.1213,-3.5356 16.6287,-55.4166 16.6287,-55.4166 l 25.2856,-59.6337 c 0,0 -78.6208,-55.109 -80.7421,-57.9375 -2.1213,-2.8284 -79.6568,13.3143 -79.6568,13.3143 0,0 -60.4134,-16.396 -63.2418,-13.5676 -2.8285,2.8285 -57.8061,16.3518 -57.8061,16.3518 z"
+       id="path7165-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccccscc" />
   </g>
   <g
      style="display:none"
@@ -14647,6 +14666,12 @@ key = mortar.vehicle;</desc>
        d="m 966.61497,1006.7853 45.60843,-42.07289 57.2756,36.41599 -27.2236,61.8719 -46.66905,0.3535 z"
        id="path28215"
        inkscape:connector-curvature="0" />
+    <path
+       style="display:inline;enable-background:new;fill:#008000;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 712.5495,1413.4014 34.8853,29.4843 48.0805,20.3913 40.27,-35.5166 46.0727,-27.6815 49.3952,-27.6087 9.9476,-18.9719 8.5242,-46.0563 0.6175,-65.4397 -51.7825,-20.7418 -72.1366,3.6077 -57.7582,13.0798 -23.279,-24.0544 -43.4155,30.4436 -21.1493,21.1065 c 23.8165,58.9437 22.7431,40.8047 24.4049,59.47 7.8683,88.3766 0.9091,0.5803 7.3232,88.4877 z"
+       id="path28213-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccccccsc" />
   </g>
   <g
      style="display:inline"
@@ -14665,6 +14690,13 @@ key = mortar.vehicle;</desc>
        inkscape:label="#path12953_dot"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc" />
+    <path
+       style="display:inline;enable-background:new;fill:none;stroke:#b3b3b3;stroke-width:24;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 757.9463,1324.3159 c 22.5915,-3.4398 131.2012,-24.1828 132.0135,-24.5306 29.7313,-12.729 39.5672,-20.7908 40.0443,-73.4025 l -0.1241,-148.7416 -0.4579,-61.0571"
+       id="path21382-5"
+       inkscape:label="#path12953_dot"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csccc" />
   </g>
   <g
      style="display:inline"
@@ -14677,6 +14709,13 @@ key = mortar.vehicle;</desc>
        inkscape:label="#path12953_dot"
        id="path12953_navigation-3"
        d="m 721.691,977.5 c 9.57907,7.65715 21.81353,23.6893 60.31626,27.9576 l 108.493,0.7554 61.05874,0.037"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:20;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new" />
+    <path
+       sodipodi:nodetypes="csccc"
+       inkscape:connector-curvature="0"
+       inkscape:label="#path12953_dot"
+       id="path12953_navigation-3-9"
+       d="m 757.5188,1324.3158 c 22.9671,-3.2678 131.2677,-24.1704 132.105,-24.5346 29.7677,-12.947 39.8444,-20.7775 40.3803,-73.8845 l -0.1241,-148.7416 -0.4579,-61.0571"
        style="display:inline;fill:none;stroke:#000000;stroke-width:20;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new" />
   </g>
   <g
@@ -14721,12 +14760,37 @@ key = mortar.vehicle;</desc>
       <desc
          id="desc4876-3-1-3-6-4">name=Base 2;</desc>
     </rect>
+    <rect
+       inkscape:label="#rect11324_base"
+       y="-803.07458"
+       x="1308.5989"
+       height="72.03611"
+       width="109.75632"
+       id="rect4874-8-1-8-9-3-1"
+       style="display:inline;enable-background:new;opacity:0.72566373;fill:#ffff00;fill-opacity:1;stroke:none"
+       transform="rotate(90.067586)">
+      <desc
+         id="desc4876-3-1-3-6-4-9">name=South Island;</desc>
+    </rect>
   </g>
   <g
      style="display:inline"
      inkscape:label="map_view_decoration"
      id="layer38"
-     inkscape:groupmode="layer" />
+     inkscape:groupmode="layer">
+    <rect
+       inkscape:label="#rect11324_base"
+       y="1307.2125"
+       x="730.57446"
+       height="111.68229"
+       width="71.313309"
+       id="rect91923-0"
+       style="display:inline;enable-background:new;opacity:0.5;fill:none;stroke:#ffffff;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:4.99999988, 4.99999987999999980;stroke-dashoffset:0;stroke-opacity:1"
+       transform="rotate(0.08978138)">
+      <desc
+         id="desc91925-0">name=Aqualand;</desc>
+    </rect>
+  </g>
   <g
      style="display:inline"
      inkscape:label="map_view_bases"
@@ -15550,7 +15614,12 @@ key = mortar.vehicle;</desc>
            height="14.0625"
            x="3356.6406"
            y="2032.375" /></flowRegion><flowPara
-         id="flowPara7569"></flowPara></flowRoot>  </g>
+         id="flowPara7569" /></flowRoot>  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="temp"
+     style="display:inline" />
   <g
      style="display:inline"
      id="g340"
@@ -16161,6 +16230,58 @@ base_wall_template = BrickWall1;</desc>
          transform="matrix(-0.01285483,-0.99991737,0.99991737,-0.01285483,0,0)"
          inkscape:transform-center-x="-9.983563"
          inkscape:transform-center-y="0.57923817" />
+      <g
+         id="g3176">
+        <path
+           inkscape:label="#path20737_platform"
+           inkscape:connector-curvature="0"
+           id="path20737-8-3-7"
+           d="m 675.8708,1253.9599 -28.37325,30.6475 11.3131,15.2458 1.47991,31.4872 5.96563,37.5419 10.71648,38.5803 35.90718,45.6957 56.43537,20.306 49.18751,-7.4921"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#cb0000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:new"
+           sodipodi:nodetypes="ccccccccc">
+          <desc
+             id="desc20739-4-6-5">type = end; 
+wall_template = CliffWall2; 
+top_material = terrain;</desc>
+        </path>
+        <path
+           inkscape:label="#path20733_platform"
+           inkscape:connector-curvature="0"
+           id="path20733-8-2-6"
+           d="m 677.37064,1253.4591 -4.35656,15.8892 18.95838,31.6823 16.36613,34.5822 8.92983,41.0831 4.37929,40.6526 26.57571,24.0703 25.85598,11.6434 44.60544,10.4179"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#0000cb;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:new"
+           sodipodi:nodetypes="ccccccccc">
+          <desc
+             id="desc20735-3-2-2">type = start;</desc>
+        </path>
+      </g>
+      <g
+         id="g3166">
+        <path
+           sodipodi:nodetypes="cc"
+           inkscape:label="#path7943_platform"
+           inkscape:connector-curvature="0"
+           id="path7943-7-4-7-7-95-4-7-1-8"
+           d="m 945.37123,1113.5621 -29.98358,0.7014"
+           style="display:inline;fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new">
+          <desc
+             id="desc7945-4-0-2-7-4-8-9-7-5">type = end; 
+mode = bridge;
+wall_template = BrickWall1; 
+top_material = terrain; 
+</desc>
+        </path>
+        <path
+           sodipodi:nodetypes="cc"
+           inkscape:label="#path7943_platform"
+           inkscape:connector-curvature="0"
+           id="path7943-1-0-1-5-4-1-8-5-3-5"
+           d="m 945.7713,1222.7124 -30.79249,0.3007"
+           style="display:inline;fill:none;stroke:#0000ff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new">
+          <desc
+             id="desc7945-3-9-7-6-9-0-2-5-1-2">type = start;</desc>
+        </path>
+      </g>
     </g>
     <g
        style="display:inline"
@@ -16264,6 +16385,46 @@ base_wall_template = BrickWall1;</desc>
          width="2.2977724"
          id="rect4878-8-6-42-7-9-6-8"
          style="display:inline;fill:#0000ff;fill-opacity:1;stroke:none;enable-background:new" />
+      <rect
+         inkscape:label="#spawnrect10748"
+         y="1346.7742"
+         x="774.51855"
+         height="2.0679491"
+         width="2.2977724"
+         id="rect4878-8-6-42-7-9-6-10-4"
+         style="display:inline;enable-background:new;fill:#0000ff;fill-opacity:1;stroke:none" />
+      <rect
+         inkscape:label="#spawnrect10748"
+         y="1277.1683"
+         x="727.00989"
+         height="2.0679491"
+         width="2.2977724"
+         id="rect4878-8-6-42-7-9-6-10-0"
+         style="display:inline;enable-background:new;fill:#0000ff;fill-opacity:1;stroke:none" />
+      <rect
+         inkscape:label="#spawnrect10748"
+         y="1359.48"
+         x="835.28564"
+         height="2.0679491"
+         width="2.2977724"
+         id="rect4878-8-6-42-7-9-6-10-7"
+         style="display:inline;enable-background:new;fill:#0000ff;fill-opacity:1;stroke:none" />
+      <rect
+         inkscape:label="#spawnrect10748"
+         y="1387.1013"
+         x="746.34485"
+         height="2.0679491"
+         width="2.2977724"
+         id="rect4878-8-6-42-7-9-6-10-8"
+         style="display:inline;enable-background:new;fill:#0000ff;fill-opacity:1;stroke:none" />
+      <rect
+         inkscape:label="#spawnrect10748"
+         y="1278.2733"
+         x="891.63318"
+         height="2.0679491"
+         width="2.2977724"
+         id="rect4878-8-6-42-7-9-6-10-46"
+         style="display:inline;enable-background:new;fill:#0000ff;fill-opacity:1;stroke:none" />
     </g>
   </g>
   <g
