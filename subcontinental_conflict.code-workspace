@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"name": "subcontinental_conflict",
+			"path": "."
+		},
+		{
+			"name": "vanilla",
+			"path": "../vanilla"
+		},
+		{
+			"name": "Running_with_the_Dead",
+			"path": "../../../../../workshop/content/270150/677995637/media/packages/Running_with_the_Dead"
+		},
+		{
+			"name": "Running_with_the_Dead_campaign",
+			"path": "../../../../../workshop/content/270150/677995637/media/packages/Running_with_the_Dead_campaign"
+		}
+	],
+	"settings": {}
+}
