@@ -3,15 +3,6 @@
   <weapon file="ak47.weapon">
     <capacity source="rank" source_value="0.0" value="1" />
   </weapon>
-  <weapon file="type56.weapon">
-    <capacity source="rank" source_value="0.0" value="1" />
-  </weapon>
-  <weapon file="g3.weapon">
-    <capacity source="rank" source_value="0.0" value="1" />
-  </weapon>
-  <weapon file="g3_semi.weapon">
-    <capacity source="rank" source_value="0.0" value="1" />
-  </weapon>
   <weapon file="apc_hmg.weapon">
   </weapon>
   <weapon file="g36.weapon">
@@ -993,5 +984,18 @@
 	<weapon file="missile_launcher.weapon" />	
 	<weapon file="lijia_pumpkin.weapon" />
 
+<!-- subcontinental conflict -->
+  <weapon file="type56.weapon">
+    <capacity source="rank" source_value="0.0" value="1" />
+  </weapon>
+  <weapon file="g3.weapon">
+    <capacity source="rank" source_value="0.0" value="1" />
+  </weapon>
+  <weapon file="g3_semi.weapon">
+    <capacity source="rank" source_value="0.0" value="1" />
+  </weapon>
+  
+  <weapon file="squad_kit_t2.weapon" />
+  <weapon file="squad_kit_camo.weapon" />
 
 </weapons>

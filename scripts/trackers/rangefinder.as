@@ -36,15 +36,13 @@ class RangeFinder : Tracker {
 						Vector3 origin = stringToVector3(character.getStringAttribute("position"));
 						int distance = int(getPositionDistance(target, origin));
 						
-						string intelKey = "rangefinder binoculars";
+						string intelKey = "advanced binoculars";
 						dictionary a = {
-							{"%range", formatInt(distance)}
+							{"%range", formatInt(distance)},
+							{"%target", "Enemy spotted!"}
 						};
 						
 						sendFactionMessageKeySaidAsCharacter(m_metagame, 0, characterId, intelKey, a);
-
-						string funMessage="Wow this thing has a rangefinger, neat!";
-						sendFactionMessageSaidAsCharacter(m_metagame, 0, characterId, funMessage);
 					}
 				}
 			}

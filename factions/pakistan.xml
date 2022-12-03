@@ -91,7 +91,7 @@
 	<!-- player group -->
     <!-- -->
 	<soldier name="default" spawn_score="0.0">
-		<character filename="pakistani.character">
+		<character filename="pakistan.character">
 			<parameter class="default_squad_config_index" value="0" />
 		</character>
 		<ai filename="default.ai" />
@@ -197,7 +197,7 @@
 	<!-- prisoner group -->
     <!-- -->
 	<soldier name="prisoner" spawn_score="0.0">
-		<character filename="pakistani.character" />
+		<character filename="pakistan.character" />
 		<ai filename="default.ai" />
 		<model filename="soldier_prison.xml" />
 
@@ -230,7 +230,7 @@
 	<!--    EOD group   -->
     <!-- -->
 	<soldier name="eod" spawn_score="0.006" squad_size_xp_cap="0.0">
-		<character filename="pakistani.character" />
+		<character filename="pakistan.character" />
 		<ai filename="eod.ai" />
 		<model filename="soldier_c1eod.xml" />
 
@@ -297,7 +297,7 @@
 	<!-- sniper -->
     <!-- -->
 	<soldier name="sniper" spawn_score="0.03" squad_size_xp_cap="0.0">
-		<character filename="pakistani.character" />
+		<character filename="pakistan.character" />
 		<ai filename="sniper.ai" />
 
 		<models file="pak_default_basic.models" />
@@ -385,7 +385,7 @@
 	<!-- paratrooper -->
     <!-- -->
 	<soldier name="para" spawn_score="0.0">
-		<character filename="pakistani.character" />
+		<character filename="pakistan.character" />
 		<ai filename="default.ai" />
 		
 		<model filename="soldier_cp.xml" />
@@ -412,7 +412,7 @@
 	<!--    Grenadier group   -->
     <!-- -->
 	<soldier name="grenadier" spawn_score="0.015" squad_size_xp_cap="0.0">
-		<character filename="pakistani.character" />
+		<character filename="pakistan.character" />
 		<ai filename="grenadier.ai" />
 		<model filename="soldier_cg.xml" />
 
@@ -622,7 +622,7 @@
 	<!-- Ranger -->
         <!-- -->
 	<soldier name="ranger" spawn_score="0.01" squad_size_xp_cap="0.3">
-		<character filename="pakistani.character" />
+		<character filename="pakistan.character" />
 		<ai filename="ranger.ai" />
 		<model filename="soldier_c_ranger.xml" />
 

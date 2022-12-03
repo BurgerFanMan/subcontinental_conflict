@@ -3,4 +3,6 @@
 	<weapon key='rpg-7.weapon' />
 	<weapon key='pb.weapon' />
 	<weapon key='aek_919k.weapon' />     
+	<weapon key='squad_kit_t2.weapon' />
+	<weapon key='squad_kit_camo.weapon' />
 </resources>
