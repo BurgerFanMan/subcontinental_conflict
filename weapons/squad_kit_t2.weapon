@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon file="base_secondary.weapon" key="squad_kit_t2.weapon" radius="0.25" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1.0">
     <tag name="engineer" />
-    <specification magazine_size="1" can_shoot_standing="0" can_shoot_crouching="1" carry_in_two_hands="1" can_shoot_prone="0" name="Combat Squad Kit" class="5" spawn_instance_class="projectile" spawn_instance_key="squad_equipment_kit.projectile" consume="1" sight_range_modifier="1" slot="1" deployment="1" />
+    <specification magazine_size="1" can_shoot_standing="0" can_shoot_crouching="1" carry_in_two_hands="1" can_shoot_prone="0" 
+    name="Combat Squad Kit" class="5" spawn_instance_class="projectile" 
+    spawn_instance_key="squad_kit_t2.projectile" consume="1" sight_range_modifier="1" slot="1" deployment="1" />
+    <!-- change projectile key(spawn_instance_key), weapon key, and name -->
+
     <animation state_key="running" 		animation_key="running, carrying load" />
     <animation state_key="walking" 		animation_key="walking, carrying load" />
     <animation state_key="hold" 		animation_key="still, carrying load" />
@@ -29,11 +33,5 @@
     <modifier class="speed" value="-0.4" />
 
     <shield offset="0.0 0.0 0" extent="0.1 0.1 0.1" />
-
-    <!-- match this key to the one in squad_equipment_kit.as -->
-    <projectile file="squad_equipment_kit.projectile">
-        <result class="notify_script" key="squad_kit_t2" />
-    </projectile>
-
 </weapon>
 

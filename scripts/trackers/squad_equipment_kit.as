@@ -42,13 +42,12 @@ class SquadEquipmentKit : Tracker {
 
 		//checking if the event was triggered by a squad equipment kit
 		string eventKey = event.getStringAttribute("key");
+		_log("Recieved event request, key=" + eventKey, 0);
 
 		bool containsEventKey = false;
 
 		//placeholder in case forloop fails
 		string newVest = "vest1.carry_item";
-
-
 		for (uint i = 0; i < keys.getKeys().size(); ++i) {
 			if(keys.getKeys()[i] == eventKey){
 				containsEventKey = true;
@@ -57,6 +56,7 @@ class SquadEquipmentKit : Tracker {
 		}
 
 		if (containsEventKey) {
+			_log("Equipment event triggered", 1);
 			//deploying character's id
 			int characterId = event.getIntAttribute("character_id");
 			
@@ -133,6 +133,7 @@ class SquadEquipmentKit : Tracker {
 							
 							//they get a new vest only if they have none or the one they wear is damaged
 							if (vestAmount == 0 || (vestAmount == 1 && (vestKey == "vest2_2" || vestKey == "vest2_3" || vestKey == "vest1.carry_item" || vestKey == "vest1_2"))) {
+								_log("Vest given", 1);
 								//1% chance that they receive a costume instead of a vest, faulty kit contents happen :)
 								int r = rand(1, 100);						
 								if (r == 1) {
