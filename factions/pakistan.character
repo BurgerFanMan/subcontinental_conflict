@@ -1185,6 +1185,7 @@
 <!-- custom keys -->
 <!--             -->
 	<comment key="advanced binoculars" text="%target Distance to target: %rangem"/>
+	<comment key="directional binoculars" text="%target Distance to target: %rangem Direction to target: direction%"/>
 
 
 <!--                   -->
@@ -1214,6 +1215,10 @@
 
 
 <!-- halno's madhouse-->
+  <comment key="halno_dialogue, equip" text="If only a cute girl would pick *me* up" />
+  <comment key="halno_dialogue, kill" text="Girls want a girl who will actually just kill them" />
+  <comment key="halno_dialogue, wounded" text="I-itai! Itai onee-chan! o///o" />
+
   <dialogue key="defense dialogue 2 men">
       <comment text="I really gotta tell you... Man, Halno's cute" />
       <comment text="For real!" />
@@ -1240,5 +1245,16 @@
       <comment text="I got a point and you know it." />
       <comment text="...What..." />
   </dialogue> 
+
+  <dialogue key="defense dialogue 2 men">
+      <comment text="I've been thinking..." />
+      <comment text="Oh, me too... Care to exchange some thoughts? You first." />
+      <comment text="It's... Just really strange. I sometimes feel like i'm just a pawn. Just a character inside a game. Like my thoughts don't matter and my life is just a piece of something else. Like everything I do is scripted..." />
+      <comment text="...Whoa, my dude, I've just been thinking about how I'd love to be in a cute lesbian relationship, Now I feel kinda dumb..." />
+      <comment text="No, no, wait, keep that thought, that's a good thought." />
+      <comment text="I know, right!?" />
+  </dialogue>
+
+
   
 </character>

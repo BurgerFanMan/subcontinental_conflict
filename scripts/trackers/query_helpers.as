@@ -869,3 +869,53 @@ void kickPlayer(Metagame@ metagame, int playerId) {
 	string command = "<command class='kick_player' player_id='" + playerId + "' />";
 	metagame.getComms().send(command);
 }
+
+// --------------------------------------------
+//         subcontinental conflict
+// --------------------------------------------
+
+// --------------------------------------------------------
+bool isPlayerEvent(const Metagame@ metagame, const XmlElement@ event){
+	int characterId = event.getIntAttribute("character_id");
+	const XmlElement@ character = getCharacterInfo(metagame, characterId);
+			
+	if (character !is null) {
+		int playerId = character.getIntAttribute("player_id");
+		const XmlElement@ player = getPlayerInfo(metagame, playerId);
+
+		if(player !is null){
+			return true;
+		}
+	}
+	
+	return false;
+}
+
+// --------------------------------------------------------
+array<const XmlElement@>@ getVehiclesNearPosition(const Metagame@ metagame, const Vector3@ position, int factionId, float range = 80.0f) {
+	array<const XmlElement@> vehicles;
+	array<const XmlElement@> allVehicles;
+
+	XmlElement@ query = XmlElement(
+		makeQuery(metagame, array<dictionary> = {
+			dictionary = { {"TagName", "data"}, {"class", "vehicles"}, {"faction_id", factionId}, 
+						   {"position", position.toString()}, {"range", range} } }));
+
+	const XmlElement@ doc = metagame.getComms().query(query);
+	if (doc !is null) {
+		allVehicles = doc.getElementsByTagName("vehicle");
+		for(uint i = 0; i < allVehicles.size(); i++){
+			Vector3 vehiclePos = stringToVector3(allVehicles[i].getStringAttribute("position"));
+
+			if(int(getPositionDistance(position, vehiclePos)) < range){
+				vehicles.insertLast(allVehicles[i]);
+			}
+
+		}
+
+		return vehicles;
+	} else {
+		array<const XmlElement@> empty;
+		return @empty;
+	}
+}
