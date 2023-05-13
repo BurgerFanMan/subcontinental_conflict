@@ -1132,8 +1132,8 @@
 <!-- subcontinental conflict (custom keys) -->
 <!--                                       -->
 
-	<comment key="initiate radio call" weight='0.9' text="HQ, do you read me?" />
-	<comment key="initiate radio call" weight='0.1' text="HQ? HQ, respond." />
+	<comment key="initiate radio call" text="HQ, do you read me?" />
+	<comment key="initiate radio call" text="HQ? HQ, respond." />
 	<comment key="commander radio response" text="This is HQ, go ahead" />
 	<comment key="commander radio response" text="HQ, reading you loud and clear" />
     
@@ -1152,7 +1152,7 @@
     <comment key="Medic!" text="Where's the medics when you need them?" /> 
  
 	<comment key="Good job, soldiers" text="We showed them!" />
-	<comment key="Good job, soldiers" text="Yeah, run you India lovers!" />
+	<comment key="Good job, soldiers" text="Don't let your guard down just yet!" />
 
 	<comment key="Buzz off" text="Nice try, kid" />
 
@@ -1185,7 +1185,8 @@
 <!-- custom keys -->
 <!--             -->
 	<comment key="advanced binoculars" text="%target Distance to target: %rangem"/>
-	<comment key="directional binoculars" text="%target Distance to target: %rangem Direction to target: direction%"/>
+	<comment key="advanced binoculars, direction" text="%target Distance to target: %rangem Direction to target: %direction"/>
+	<comment key="advanced binoculars, no_target" text="Distance to target: %rangem Direction to target: %direction"/>
 
 
 <!--                   -->

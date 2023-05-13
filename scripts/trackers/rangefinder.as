@@ -37,10 +37,11 @@ class RangeFinder : Tracker {
 						Vector3 origin = stringToVector3(character.getStringAttribute("position"));
 						int distance = int(getPositionDistance(target, origin));
 						
-						string intelKey = "advanced binoculars";
+						string intelKey = "advanced binoculars, direction";
 						dictionary a = {
 							{"%range", formatInt(distance)},
-							{"%target", getClosestTargetString(target)}
+							{"%target", getClosestTargetString(target)},
+							{"%direction", "" + getAngleBetweenPositions(origin, target)}
 						};					
 						
 						sendFactionMessageKeySaidAsCharacter(m_metagame, 0, characterId, intelKey, a);
@@ -77,10 +78,10 @@ class RangeFinder : Tracker {
 		};
 		
 
-		array<const XmlElement@>@ infantry = getCharactersNearPosition(m_metagame, position, 1, 6.0f);
+		array<const XmlElement@>@ infantry = getCharactersNearPosition(m_metagame, position, 1, 8.0f);
 		array<const XmlElement@>@ infantryGroup = getCharactersNearPosition(m_metagame, position, 1, 20.0f);
 		
-		array<const XmlElement@>@ vehicles = getVehiclesNearPosition(m_metagame, position, 1, 8.0f);
+		array<const XmlElement@>@ vehicles = getVehiclesNearPosition(m_metagame, position, 1, 10.0f);
 		array<const XmlElement@>@ vehicleGroup = getVehiclesNearPosition(m_metagame, position, 1, 25.0f);
 
 		//Ordered in terms of priority

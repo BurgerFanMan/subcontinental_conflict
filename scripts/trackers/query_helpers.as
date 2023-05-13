@@ -919,3 +919,51 @@ array<const XmlElement@>@ getVehiclesNearPosition(const Metagame@ metagame, cons
 		return @empty;
 	}
 }
+
+// --------------------------------------------------------
+float getAngleBetweenPositions(const Vector3@ pos1, const Vector3@ pos2){
+	float finalAngle = 0.0f;
+
+	float x1 = pos1.m_values[0];
+	float y1 = pos1.m_values[2];
+
+	float x2 = pos2.m_values[0];
+	float y2 = pos2.m_values[2];
+
+//make pos1 at (0,0) to simplify calculations and normalise vector
+	x2 -= x1;
+	x1 = 0.0f;
+
+	y2 -= y1;
+	y1 = 0.0f;
+	
+	float hypoLength = getPositionDistance(pos1, pos2);
+
+	x2 /= hypoLength;
+	y2 /= hypoLength;
+
+	_log("X:"+x2+"  Y:"+y2, 1);
+
+	float ratio = x2/1.0f;
+	_log("Ratio: "+ratio, 1);
+
+	float angle = asin(ratio) * 57.2958f;
+	_log("Initial angle: "+ angle, 1);
+
+	finalAngle = angle;
+
+	if(angle < 0){
+		finalAngle = 360.0f + angle;
+
+		if(y2 < 0){
+			finalAngle = 270.0f + angle;
+		}
+	}
+	else if(y2 < 0){
+		finalAngle = 180.0f + angle;
+	}
+
+	_log("Final angle: "+ finalAngle, 1);
+
+	return finalAngle;
+}
